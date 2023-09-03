@@ -1,0 +1,133 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+/*config*/
+.botoes{
+  padding-top: 40px; 
+}
+.pad{
+  padding-left: 5px;
+}
+/*Biblioteca*/
+.dados-livros{
+  padding-top:30px; 
+}
+.livro{
+  height:150px;
+  width:100px;
+}
+/*Login, Registro, Adicionar e Alterar*/
+.bg{
+  width: 100vw;
+  height: 100vh;
+  background: #a3a3a3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  padding: 10px;
+  width: 300px;
+  height: 335px;
+  background-color:#fff;
+}
+.box-add{
+  padding: 10px;
+  width: 400px;
+  height: 500px;
+  background-color:#fff;
+}
+.box-regi{
+  padding: 10px;
+  width: 400px;
+  height: 513px;
+  background-color:#fff;
+}
+.box-veri{
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+  background-color:#fff;
+  text-align: center;
+}
+.link{
+  padding-top: 10px; 
+
+/*Cabeçario*/
+}
+.logo{
+  height: 35px;
+  width: 90px;
+}
+.user{
+  height: 35px;
+  width: 35px;
+}
+/* carrosel */
+
+#carouselhome .carousel-inner,#carouselhome .carousel-item{
+  height: 90%;
+}
+
+/* sobre a Virando a Página*/
+
+.main-title{
+  color: #444;
+  margin: 65px 0px 65px 0px;
+  font-size: 40px;
+  text-align: center;
+}
+.main-title::after{
+  content: "";
+  border-top: 2px solid #444;
+  width: 35%;
+  position: absolute;
+  top: 130px;
+  left: 32.5%;
+
+}
+.slogan-title{
+  color: #444;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.sobre-list{
+  list-style: none;
+  padding: 0px;
+}
+.sobre-list li{
+  line-height: 30px;
+}
+.sobre-list i{
+  color: #444;
+}
+
+/*Rodapé*/
+
+footer{
+  width: 100%;
+  bottom: 0;
+  left: 0;'
+}
+.absolute{
+  position: absolute;
+}
+.fixed{
+  position: fixed;
+}
+
+.area-copy{
+  margin: 130px 0px 0px 0px;
+  background:#e0e0e0; 
+}
+.area-copy .container{
+  text-align: center;
+  padding: 10px 0px;
+}
+.area-copy .container p{
+  margin-bottom: 0px;
+}
+
